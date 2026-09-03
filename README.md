@@ -1,18 +1,27 @@
 # 1Page News
 
-A native iOS app that puts everything you need to know today on one page.
-Tap a story to see **the facts first**, then how the **left** and **right**
-are framing it, with an **unbiased** view as the default.
+Seven stories a day, written plainly, with the disputed parts clearly marked,
+and an ending.
 
-## The idea
+Native iOS app plus the backend that builds each day's edition. The brief in
+the project history is the source of truth. The writing is the product.
 
-- **One page.** A short list of the stories that matter today. No feed, no scrolling forever.
-- **Facts first.** Each story opens with a numbered list of what is confirmed across independent sources.
-- **Three views.** A Left / Unbiased / Right switcher shows how each side frames the same story. Unbiased is selected by default and is the point of the app.
-- **Your topics.** General news is always on. Add AI, Finance, Environment, Politics, World, Technology, Science, or Health in Settings.
-- **Short by design.** Pick Quick (5), Standard (8), or Full (12) stories. There is no "long" option.
+## What's here
 
-## Running it
+```
+project.yml           XcodeGen spec: app, widget extension, unit tests
+OnePageNews/          The app (SwiftUI, iOS 17+)
+  App/                Entry point, text size floor
+  Views/              Today, story detail with the spine, settings, methodology
+  Intents/            Siri read-aloud intent, Focus filter
+  Resources/          Fixture edition, methodology, sources, string catalog
+OnePageWidget/        Home and Lock Screen widgets
+Shared/               Content model and app-group cache, used by app and widget
+OnePageNewsTests/     Unit tests
+backend/              FastAPI service and the daily edition pipeline (see backend/README.md)
+```
+
+## Run the app
 
 Requires Xcode 15 or newer and [XcodeGen](https://github.com/yonaskolb/XcodeGen).
 
@@ -22,73 +31,41 @@ xcodegen generate
 open OnePageNews.xcodeproj
 ```
 
-Pick an iPhone simulator and run. The app ships with a bundled sample briefing
-(`OnePageNews/Resources/SampleBriefing.json`) so every screen works with no
-backend. The sample stories are fictional placeholders, not real news.
+Pick an iPhone simulator and run. The app loads today's edition from the
+Railway API and falls back to a saved copy, then to the bundled fixture, so
+every screen works offline. Change the server in Settings.
 
-The generated `.xcodeproj` is git-ignored. Re-run `xcodegen generate` after
-adding or removing files.
+App Groups: the app and widget share `group.com.sampreston.onepagenews`.
+Xcode will ask you to register it against your team the first time.
 
-## Project layout
+## The one screen that matters
 
-```
-project.yml                      XcodeGen spec (app + unit test targets)
-OnePageNews/
-  App/OnePageNewsApp.swift       Entry point
-  Models/                        Topic, Story, Perspectives, Source
-  Services/                      NewsProvider protocol, sample + remote providers
-  State/                         AppModel (screen state), Preferences (settings)
-  Views/                         BriefingView, StoryDetailView, SettingsView, Styling
-  Resources/                     Asset catalog, SampleBriefing.json
-OnePageNewsTests/                Unit tests
-```
+Story detail, top to bottom:
 
-## Data contract
+1. What happened. Two or three sentences.
+2. Not in dispute. Only what every outlet reports the same way. A solid line runs beside it.
+3. Disputed. The line forks into two dashed strands, one per named side, then joins again.
+4. How each outlet put it. Collapsed.
+5. Why it matters. One sentence.
+6. Sources. Always visible, every one a link to the original.
 
-The app reads one JSON shape, whether from the bundled file or a server.
-`RemoteNewsProvider` calls `GET {serverURL}/briefing?topics=general,ai,finance`
-and expects:
+Then the Today page ends. Seven stories, a done screen, no eighth.
 
-```json
-{
-  "generatedAt": "2026-09-03T12:00:00Z",
-  "stories": [
-    {
-      "id": "unique-id",
-      "headline": "…",
-      "summary": "One or two sentences shown on the briefing page.",
-      "topic": "general | world | politics | ai | technology | finance | environment | science | health",
-      "importance": 3,
-      "publishedAt": "2026-09-03T10:30:00Z",
-      "whyItMatters": "…",
-      "facts": ["…", "…"],
-      "perspectives": {
-        "left":     { "summary": "…", "keyPoints": ["…"] },
-        "unbiased": { "summary": "…", "keyPoints": ["…"] },
-        "right":    { "summary": "…", "keyPoints": ["…"] }
-      },
-      "sources": [
-        { "name": "Outlet", "url": "https://…", "lean": "left | center | right" }
-      ]
-    }
-  ]
-}
-```
+## Backend
 
-`importance` is 1 (low), 2 (medium), or 3 (high). High stories get a
-"Need to know" badge and sort to the top.
+Deployed on Railway from the `backend/` directory of this branch:
 
-Set a server URL in Settings → Data source to switch from sample data to live
-data. Leave it blank to use the bundled file.
+- **api** serves editions at `https://api-production-50ff.up.railway.app`
+- **builder** runs `python -m app.pipeline.build` on a daily cron
+- **Postgres** stores editions, corrections, and linter rejections
 
-## Roadmap
+The builder needs `ANTHROPIC_API_KEY` set on the Railway service before it
+can write a real edition. Until then the API serves the fixture.
 
-1. **Backend.** A service that pulls the same story from several outlets across
-   the spectrum, extracts only the claims that appear in independent sources,
-   and writes the three perspectives. This is where the "unbiased" promise is
-   actually kept, so it needs to be verifiable: every fact should trace back to
-   at least two sources with different leanings.
-2. **Source ratings.** Use a published media-bias dataset rather than hand
-   labels for `lean`.
-3. **Notifications / widget.** A morning briefing widget and one push per day.
-4. **Offline cache.** Keep the last briefing on device.
+The voice linter (`backend/app/voice/`) runs on every generated story. A story
+that fails three times is thrown out. See `backend/README.md`.
+
+## Non-goals
+
+No feed. No comments. No sharing streaks. No ads. No chatbot. One
+notification a day, at a time the reader picks.
