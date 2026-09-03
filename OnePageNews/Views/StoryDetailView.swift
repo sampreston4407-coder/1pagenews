@@ -5,8 +5,8 @@ import SwiftUI
 ///
 /// The signature move is the spine. It is drawn as ONE overlay over the facts
 /// and the disputes, from the rows' real positions, so every segment meets the
-/// next one: solid down the facts and the claim, a fork into two dashed strands
-/// for the two sides, a join back into one line. It reveals top to bottom.
+/// next one: solid down the facts and the claim, then a fork into two dashed
+/// strands for the two sides. The strands end there. It reveals top to bottom.
 ///
 /// The two sides begin as one block on the line. As the wipe crosses the fork
 /// and the curve is drawn, the second side slides out to its own column and
@@ -71,7 +71,7 @@ enum Spine {
     static let width: CGFloat = 3
     static let inset: CGFloat = 6          // left edge of the main strand
     static let textInset: CGFloat = 18     // text starts here, clear of the strand
-    static let gap: CGFloat = 28           // height of a fork or a join
+    static let gap: CGFloat = 28           // height of the fork
     static let columnSpacing: CGFloat = 14
     static let dash: [CGFloat] = [5, 4]
 
@@ -81,7 +81,7 @@ enum Spine {
 
 /// A row that the spine runs beside, reported by the row's real bounds.
 struct SpineNode {
-    enum Kind { case solid, fork, sides, join }
+    enum Kind { case solid, fork, sides }
     let kind: Kind
     let bounds: Anchor<CGRect>
 }
@@ -133,7 +133,7 @@ struct ForkSlide: ViewModifier, Animatable {
     }
 }
 
-/// Not in dispute, then each dispute: claim, fork, two sides, join.
+/// Not in dispute, then each dispute: claim, fork, two sides. The strands end there.
 struct SpinedSection: View {
     let facts: [String]
     let disputes: [Dispute]
@@ -186,10 +186,7 @@ struct SpinedSection: View {
                         .zIndex(1)
                 }
                 .spineNode(.sides)
-
-                Color.clear
-                    .frame(height: Spine.gap)
-                    .spineNode(.join)
+                .padding(.bottom, 6)
             }
         }
         .overlayPreferenceValue(SpineKey.self) { nodes in
@@ -278,23 +275,10 @@ struct SpineDrawing: View {
                     dashed.move(to: CGPoint(x: xB, y: top))
                     dashed.addLine(to: CGPoint(x: xB, y: rect.maxY))
                 }
-            case .join:
-                dashed.move(to: CGPoint(x: x0, y: top))
-                dashed.addLine(to: CGPoint(x: x0, y: rect.minY))
-                solid.move(to: CGPoint(x: x0, y: rect.minY))
-                solid.addLine(to: CGPoint(x: x0, y: rect.maxY))
-                if abs(xB - x0) > 1 {
-                    dashed.move(to: CGPoint(x: xB, y: top))
-                    dashed.addLine(to: CGPoint(x: xB, y: rect.minY))
-                    solid.move(to: CGPoint(x: xB, y: rect.minY))
-                    solid.addCurve(
-                        to: CGPoint(x: x0, y: rect.maxY),
-                        control1: CGPoint(x: xB, y: rect.midY + 6),
-                        control2: CGPoint(x: x0, y: rect.midY - 6)
-                    )
-                }
             }
-            y = rect.maxY
+            // A following dispute starts its own line at its claim: a break,
+            // not a join.
+            y = kind == .sides ? nil : rect.maxY
             bottom = max(bottom, rect.maxY)
         }
         return (solid, dashed, bottom)
