@@ -1,0 +1,1059 @@
+{
+  "date": "2026-09-03",
+  "published_at": "2026-09-03T11:00:00Z",
+  "next_edition_at": "2026-09-04T11:00:00Z",
+  "stories": [
+    {
+      "id": "2026-09-03-budget",
+      "headline": "Budget talks stall, shutdown four weeks out",
+      "what_happened": "Negotiators walked out Wednesday with no deal. Government funding runs out at midnight on September 30. Nobody has scheduled the next meeting.",
+      "not_in_dispute": [
+        "Funding expires at midnight on September 30.",
+        "The two sides are about $40 billion apart on discretionary spending.",
+        "No follow-up meeting is on the calendar.",
+        "A short-term extension has been floated but not filed."
+      ],
+      "disputed": [
+        {
+          "claim": "who walked away from the table",
+          "side_a_position": "Speaker Dana Whitfield said Wednesday the minority refused to put a number in writing",
+          "side_a_who": "Speaker Dana Whitfield",
+          "side_b_position": "Minority Leader Ray Okafor said his side offered a number and the Speaker rejected it within the hour",
+          "side_b_who": "Minority Leader Ray Okafor"
+        }
+      ],
+      "framing": [
+        {
+          "outlet": "Capital Ledger",
+          "lean": "left",
+          "how_they_put_it": "Majority walks out, benefits on the line"
+        },
+        {
+          "outlet": "Sample Wire",
+          "lean": "center",
+          "how_they_put_it": "Budget talks break off with four weeks left"
+        },
+        {
+          "outlet": "The Standard",
+          "lean": "right",
+          "how_they_put_it": "Minority stalls as deficit climbs"
+        }
+      ],
+      "why_it_matters": "A lapse would pause paychecks for about two million federal workers.",
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "url": "https://example.org/wire/budget",
+          "lean": "center",
+          "covers": [
+            "what_happened",
+            "why_it_matters",
+            "disputed.0",
+            "not_in_dispute.0",
+            "not_in_dispute.1",
+            "not_in_dispute.2",
+            "not_in_dispute.3"
+          ]
+        },
+        {
+          "outlet": "Capital Ledger",
+          "url": "https://example.org/ledger/budget",
+          "lean": "left",
+          "covers": [
+            "what_happened",
+            "disputed.0"
+          ]
+        },
+        {
+          "outlet": "The Standard",
+          "url": "https://example.org/standard/budget",
+          "lean": "right",
+          "covers": [
+            "what_happened",
+            "disputed.0"
+          ]
+        }
+      ],
+      "updated_at": "2026-09-03T11:00:00Z",
+      "topic": "general"
+    },
+    {
+      "id": "2026-09-03-rail-strike",
+      "headline": "Rail strike set for Tuesday",
+      "what_happened": "The rail union set a strike for just after midnight Tuesday. Members voted down the latest contract 71 to 29. Talks continue through the weekend.",
+      "not_in_dispute": [
+        "Strike starts at 12:01 Tuesday morning unless a deal is reached.",
+        "Members rejected the offer 71 percent to 29.",
+        "Commuter and freight service on the main corridor would stop.",
+        "The last strike on the corridor, in 2019, lasted three days."
+      ],
+      "disputed": [
+        {
+          "claim": "whether the pay offer beats inflation",
+          "side_a_position": "Union president Marta Ruiz said the offer trails prices once the two-tier scale kicks in for new hires",
+          "side_a_who": "Union president Marta Ruiz",
+          "side_b_position": "Railway CEO Tom Beck said the offer is 4 percent a year, above inflation, and the union knows it",
+          "side_b_who": "Railway CEO Tom Beck"
+        }
+      ],
+      "framing": [
+        {
+          "outlet": "Capital Ledger",
+          "lean": "left",
+          "how_they_put_it": "Workers push back on two-tier pay"
+        },
+        {
+          "outlet": "Sample Wire",
+          "lean": "center",
+          "how_they_put_it": "Rail strike set for Tuesday after members reject offer"
+        },
+        {
+          "outlet": "The Standard",
+          "lean": "right",
+          "how_they_put_it": "Union threatens commute chaos over 4 percent raise"
+        }
+      ],
+      "why_it_matters": "If you ride the corridor, plan another way in from Tuesday.",
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "url": "https://example.org/wire/rail-strike",
+          "lean": "center",
+          "covers": [
+            "what_happened",
+            "why_it_matters",
+            "disputed.0",
+            "not_in_dispute.0",
+            "not_in_dispute.1",
+            "not_in_dispute.2",
+            "not_in_dispute.3"
+          ]
+        },
+        {
+          "outlet": "Capital Ledger",
+          "url": "https://example.org/ledger/rail-strike",
+          "lean": "left",
+          "covers": [
+            "what_happened",
+            "disputed.0"
+          ]
+        },
+        {
+          "outlet": "The Standard",
+          "url": "https://example.org/standard/rail-strike",
+          "lean": "right",
+          "covers": [
+            "what_happened",
+            "disputed.0"
+          ]
+        }
+      ],
+      "updated_at": "2026-09-03T11:00:00Z",
+      "topic": "general"
+    },
+    {
+      "id": "2026-09-03-peace-talks",
+      "headline": "Peace talks restart after two-week pause",
+      "what_happened": "Both delegations sat down again Wednesday in Geneva. On the table is a 60-day ceasefire and a prisoner swap. Neither side has signed off on the draft.",
+      "not_in_dispute": [
+        "Talks resumed Wednesday morning in Geneva with mediators present.",
+        "The draft proposes a 60-day ceasefire and a prisoner exchange.",
+        "The previous round ended August 19 with no deal.",
+        "A further session is set for Friday."
+      ],
+      "disputed": [
+        {
+          "claim": "whether a ceasefire now locks in territorial gains",
+          "side_a_position": "Foreign minister Ilse Brandt said a pause without withdrawal rewards the invasion",
+          "side_a_who": "Foreign minister Ilse Brandt",
+          "side_b_position": "UN mediator Samuel Adeyemi said the pause is the only way to get aid through before winter",
+          "side_b_who": "UN mediator Samuel Adeyemi"
+        }
+      ],
+      "framing": [
+        {
+          "outlet": "Capital Ledger",
+          "lean": "left",
+          "how_they_put_it": "Aid corridor hinges on ceasefire deal"
+        },
+        {
+          "outlet": "Sample Wire",
+          "lean": "center",
+          "how_they_put_it": "Peace talks resume in Geneva"
+        },
+        {
+          "outlet": "The Standard",
+          "lean": "right",
+          "how_they_put_it": "Ceasefire draft would freeze front lines in place"
+        }
+      ],
+      "why_it_matters": "A ceasefire would reopen the main aid route and could ease grain prices.",
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "url": "https://example.org/wire/peace-talks",
+          "lean": "center",
+          "covers": [
+            "what_happened",
+            "why_it_matters",
+            "disputed.0",
+            "not_in_dispute.0",
+            "not_in_dispute.1",
+            "not_in_dispute.2",
+            "not_in_dispute.3"
+          ]
+        },
+        {
+          "outlet": "Capital Ledger",
+          "url": "https://example.org/ledger/peace-talks",
+          "lean": "left",
+          "covers": [
+            "what_happened",
+            "disputed.0"
+          ]
+        },
+        {
+          "outlet": "The Standard",
+          "url": "https://example.org/standard/peace-talks",
+          "lean": "right",
+          "covers": [
+            "what_happened",
+            "disputed.0"
+          ]
+        }
+      ],
+      "updated_at": "2026-09-03T11:00:00Z",
+      "topic": "general"
+    },
+    {
+      "id": "2026-09-03-fed-hold",
+      "headline": "Fed holds rates, hints at December cut",
+      "what_happened": "The Fed left rates at 4.25 percent Wednesday. The vote was 10 to 2. The statement dropped the line about further increases, which is the closest it has come to promising a cut.",
+      "not_in_dispute": [
+        "Rate stays at 4.25 percent.",
+        "Vote was 10 to 2, with two members wanting a cut now.",
+        "Inflation was 2.6 percent in July, down from 3.1 in January.",
+        "Next decision is October 29."
+      ],
+      "disputed": [
+        {
+          "claim": "whether waiting risks a hiring slowdown",
+          "side_a_position": "The Capital Ledger editorial board said rates this high are already pushing up youth unemployment",
+          "side_a_who": "Capital Ledger editorial board",
+          "side_b_position": "Standard columnist Pete Marlow said services inflation is still sticky and a cut now repeats 2021",
+          "side_b_who": "Standard columnist Pete Marlow"
+        }
+      ],
+      "framing": [
+        {
+          "outlet": "Capital Ledger",
+          "lean": "left",
+          "how_they_put_it": "Fed keeps squeezing borrowers"
+        },
+        {
+          "outlet": "Sample Wire",
+          "lean": "center",
+          "how_they_put_it": "Fed holds, signals cut may come"
+        },
+        {
+          "outlet": "The Standard",
+          "lean": "right",
+          "how_they_put_it": "Fed bows to pressure, drops rate-hike language"
+        }
+      ],
+      "why_it_matters": "Mortgage and car loan rates stay about where they are until at least October.",
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "url": "https://example.org/wire/fed-hold",
+          "lean": "center",
+          "covers": [
+            "what_happened",
+            "why_it_matters",
+            "disputed.0",
+            "not_in_dispute.0",
+            "not_in_dispute.1",
+            "not_in_dispute.2",
+            "not_in_dispute.3"
+          ]
+        },
+        {
+          "outlet": "Capital Ledger",
+          "url": "https://example.org/ledger/fed-hold",
+          "lean": "left",
+          "covers": [
+            "what_happened",
+            "disputed.0"
+          ]
+        },
+        {
+          "outlet": "The Standard",
+          "url": "https://example.org/standard/fed-hold",
+          "lean": "right",
+          "covers": [
+            "what_happened",
+            "disputed.0"
+          ]
+        }
+      ],
+      "updated_at": "2026-09-03T11:00:00Z",
+      "topic": "general"
+    },
+    {
+      "id": "2026-09-03-voter-id",
+      "headline": "Statehouse passes photo ID law for November",
+      "what_happened": "The statehouse passed a photo ID requirement Tuesday on a party-line vote. The governor signed it the same day. A lawsuit was filed within hours.",
+      "not_in_dispute": [
+        "Voters will need a government photo ID to vote in person.",
+        "A free state voter card counts.",
+        "The law applies to the November 3 election unless a court blocks it.",
+        "The League of Voters filed suit in state court Wednesday."
+      ],
+      "disputed": [
+        {
+          "claim": "how many registered voters lack an accepted ID",
+          "side_a_position": "The League of Voters said its count is about 180,000, mostly older and rural voters",
+          "side_a_who": "League of Voters",
+          "side_b_position": "Secretary of State Carla Nunes said fewer than 40,000, and all of them can get the free card",
+          "side_b_who": "Secretary of State Carla Nunes"
+        }
+      ],
+      "framing": [
+        {
+          "outlet": "Capital Ledger",
+          "lean": "left",
+          "how_they_put_it": "New ID law puts 180,000 votes at risk"
+        },
+        {
+          "outlet": "Sample Wire",
+          "lean": "center",
+          "how_they_put_it": "Photo ID law signed, lawsuit filed same day"
+        },
+        {
+          "outlet": "The Standard",
+          "lean": "right",
+          "how_they_put_it": "Voter ID becomes law with free card for all"
+        }
+      ],
+      "why_it_matters": "If you vote in person in November, bring a photo ID or get the free card.",
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "url": "https://example.org/wire/voter-id",
+          "lean": "center",
+          "covers": [
+            "what_happened",
+            "why_it_matters",
+            "disputed.0",
+            "not_in_dispute.0",
+            "not_in_dispute.1",
+            "not_in_dispute.2",
+            "not_in_dispute.3"
+          ]
+        },
+        {
+          "outlet": "Capital Ledger",
+          "url": "https://example.org/ledger/voter-id",
+          "lean": "left",
+          "covers": [
+            "what_happened",
+            "disputed.0"
+          ]
+        },
+        {
+          "outlet": "The Standard",
+          "url": "https://example.org/standard/voter-id",
+          "lean": "right",
+          "covers": [
+            "what_happened",
+            "disputed.0"
+          ]
+        }
+      ],
+      "updated_at": "2026-09-03T11:00:00Z",
+      "topic": "general"
+    },
+    {
+      "id": "2026-09-03-grid-heat",
+      "headline": "Heat pushes power grid to record demand",
+      "what_happened": "Three grid operators asked people to cut power use Tuesday evening. Demand set a record, 4 percent above last summer's peak. Nobody has lost power yet.",
+      "not_in_dispute": [
+        "Peak demand Tuesday was about 4 percent above last summer's record.",
+        "Three operators issued voluntary conservation notices for 4 to 9 in the evening.",
+        "No forced outages have been reported.",
+        "Temperatures are forecast to drop from Saturday."
+      ],
+      "disputed": [
+        {
+          "claim": "why the evening gap is getting worse",
+          "side_a_position": "Grid operator chief Ana Ferreira said retired gas plants have not been replaced with anything that runs after sunset",
+          "side_a_who": "Grid operator chief Ana Ferreira",
+          "side_b_position": "Energy secretary Mark Doyle said transmission approvals, not plant closures, are the bottleneck",
+          "side_b_who": "Energy secretary Mark Doyle"
+        }
+      ],
+      "framing": [
+        {
+          "outlet": "Capital Ledger",
+          "lean": "left",
+          "how_they_put_it": "Climate heat tests an underbuilt grid"
+        },
+        {
+          "outlet": "Sample Wire",
+          "lean": "center",
+          "how_they_put_it": "Grid holds under record heat demand"
+        },
+        {
+          "outlet": "The Standard",
+          "lean": "right",
+          "how_they_put_it": "Green transition leaves grid short after dark"
+        }
+      ],
+      "why_it_matters": "Rolling outages are possible through Friday if you are in the three affected states.",
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "url": "https://example.org/wire/grid-heat",
+          "lean": "center",
+          "covers": [
+            "what_happened",
+            "why_it_matters",
+            "disputed.0",
+            "not_in_dispute.0",
+            "not_in_dispute.1",
+            "not_in_dispute.2",
+            "not_in_dispute.3"
+          ]
+        },
+        {
+          "outlet": "Capital Ledger",
+          "url": "https://example.org/ledger/grid-heat",
+          "lean": "left",
+          "covers": [
+            "what_happened",
+            "disputed.0"
+          ]
+        },
+        {
+          "outlet": "The Standard",
+          "url": "https://example.org/standard/grid-heat",
+          "lean": "right",
+          "covers": [
+            "what_happened",
+            "disputed.0"
+          ]
+        }
+      ],
+      "updated_at": "2026-09-03T11:00:00Z",
+      "topic": "general"
+    },
+    {
+      "id": "2026-09-03-phone-repair",
+      "headline": "Phone maker to sell parts and manuals",
+      "what_happened": "Helix will sell screens, batteries, cameras, and charging ports for its last four phone generations from October 6. Official repair manuals come with them. Self-repairs with official parts keep the warranty.",
+      "not_in_dispute": [
+        "Parts and manuals go on sale October 6 in the US and EU.",
+        "Covers phones from the last four years.",
+        "A screen kit costs $119, about 40 percent under the store repair price.",
+        "Using official parts does not void the warranty."
+      ],
+      "disputed": [
+        {
+          "claim": "whether new repair laws forced the change",
+          "side_a_position": "Representative Lena Ostrowski, who wrote the state repair bill, said Helix fought it for three years and folded once it passed",
+          "side_a_who": "Representative Lena Ostrowski",
+          "side_b_position": "Helix hardware chief Devin Cole said the program was in the works before any bill and the timing is a coincidence",
+          "side_b_who": "Helix hardware chief Devin Cole"
+        }
+      ],
+      "framing": [
+        {
+          "outlet": "Capital Ledger",
+          "lean": "left",
+          "how_they_put_it": "Right-to-repair pressure pays off"
+        },
+        {
+          "outlet": "Sample Wire",
+          "lean": "center",
+          "how_they_put_it": "Helix opens parts sales to customers"
+        },
+        {
+          "outlet": "The Standard",
+          "lean": "right",
+          "how_they_put_it": "Helix beats regulators to the punch on repairs"
+        }
+      ],
+      "why_it_matters": "A cracked Helix screen costs about $119 to fix yourself from next month.",
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "url": "https://example.org/wire/phone-repair",
+          "lean": "center",
+          "covers": [
+            "what_happened",
+            "why_it_matters",
+            "disputed.0",
+            "not_in_dispute.0",
+            "not_in_dispute.1",
+            "not_in_dispute.2",
+            "not_in_dispute.3"
+          ]
+        },
+        {
+          "outlet": "Capital Ledger",
+          "url": "https://example.org/ledger/phone-repair",
+          "lean": "left",
+          "covers": [
+            "what_happened",
+            "disputed.0"
+          ]
+        },
+        {
+          "outlet": "The Standard",
+          "url": "https://example.org/standard/phone-repair",
+          "lean": "right",
+          "covers": [
+            "what_happened",
+            "disputed.0"
+          ]
+        }
+      ],
+      "updated_at": "2026-09-03T11:00:00Z",
+      "topic": "general"
+    }
+  ],
+  "topic_stories": {
+    "ai": [
+      {
+        "id": "2026-09-03-ai-rules",
+        "headline": "New AI safety rules take effect",
+        "what_happened": "Rules for the largest AI models took effect Monday. Developers must file safety test results 30 days before release. Fines run up to 3 percent of global revenue.",
+        "not_in_dispute": [
+          "Applies to models trained with more than 10^26 operations.",
+          "Safety filings are due 30 days before public release.",
+          "Maximum fine is 3 percent of global annual revenue.",
+          "Fewer than a dozen current models meet the threshold."
+        ],
+        "disputed": [
+          {
+            "claim": "whether the compute threshold is the right line",
+            "side_a_position": "Commissioner Ines Vogel said compute is the only number regulators can verify from outside",
+            "side_a_who": "Commissioner Ines Vogel",
+            "side_b_position": "Anthem Labs CEO Raj Mehta said capability, not compute, is what matters and the line will be obsolete in a year",
+            "side_b_who": "Anthem Labs CEO Raj Mehta"
+          }
+        ],
+        "framing": [
+          {
+            "outlet": "Capital Ledger",
+            "lean": "left",
+            "how_they_put_it": "AI rules land, but nothing on jobs or copyright"
+          },
+          {
+            "outlet": "Sample Wire",
+            "lean": "center",
+            "how_they_put_it": "Safety filing rules begin for largest AI models"
+          },
+          {
+            "outlet": "The Standard",
+            "lean": "right",
+            "how_they_put_it": "New AI rules hand a head start to overseas rivals"
+          }
+        ],
+        "why_it_matters": "Model releases from the biggest labs will now come with a public safety report.",
+        "sources": [
+          {
+            "outlet": "Sample Wire",
+            "url": "https://example.org/wire/ai-rules",
+            "lean": "center",
+            "covers": [
+              "what_happened",
+              "why_it_matters",
+              "disputed.0",
+              "not_in_dispute.0",
+              "not_in_dispute.1",
+              "not_in_dispute.2",
+              "not_in_dispute.3"
+            ]
+          },
+          {
+            "outlet": "Capital Ledger",
+            "url": "https://example.org/ledger/ai-rules",
+            "lean": "left",
+            "covers": [
+              "what_happened",
+              "disputed.0"
+            ]
+          },
+          {
+            "outlet": "The Standard",
+            "url": "https://example.org/standard/ai-rules",
+            "lean": "right",
+            "covers": [
+              "what_happened",
+              "disputed.0"
+            ]
+          }
+        ],
+        "updated_at": "2026-09-03T11:00:00Z",
+        "topic": "ai"
+      }
+    ],
+    "finance": [
+      {
+        "id": "2026-09-03-jobs-august",
+        "headline": "Jobs report shows slowest hiring since 2020",
+        "what_happened": "Employers added 41,000 jobs in August. That is the weakest month since the pandemic. Unemployment ticked up to 4.6 percent.",
+        "not_in_dispute": [
+          "August payrolls grew by 41,000.",
+          "Unemployment rose to 4.6 percent from 4.4.",
+          "June and July were revised down by a combined 58,000.",
+          "Average hourly pay rose 3.4 percent over the year."
+        ],
+        "disputed": [
+          {
+            "claim": "whether this is a slowdown or a blip",
+            "side_a_position": "Treasury secretary Joan Feld said one soft month after a hot summer is noise",
+            "side_a_who": "Treasury secretary Joan Feld",
+            "side_b_position": "Bank of Meridian chief economist Hal Yee said three months of downward revisions is a trend, not noise",
+            "side_b_who": "Bank of Meridian chief economist Hal Yee"
+          }
+        ],
+        "framing": [
+          {
+            "outlet": "Capital Ledger",
+            "lean": "left",
+            "how_they_put_it": "Hiring stalls as rates stay high"
+          },
+          {
+            "outlet": "Sample Wire",
+            "lean": "center",
+            "how_they_put_it": "August job growth slows to 41,000"
+          },
+          {
+            "outlet": "The Standard",
+            "lean": "right",
+            "how_they_put_it": "Jobs miss shows the economy needs tax relief"
+          }
+        ],
+        "why_it_matters": "A weak report makes an October rate cut more likely.",
+        "sources": [
+          {
+            "outlet": "Sample Wire",
+            "url": "https://example.org/wire/jobs-august",
+            "lean": "center",
+            "covers": [
+              "what_happened",
+              "why_it_matters",
+              "disputed.0",
+              "not_in_dispute.0",
+              "not_in_dispute.1",
+              "not_in_dispute.2",
+              "not_in_dispute.3"
+            ]
+          },
+          {
+            "outlet": "Capital Ledger",
+            "url": "https://example.org/ledger/jobs-august",
+            "lean": "left",
+            "covers": [
+              "what_happened",
+              "disputed.0"
+            ]
+          },
+          {
+            "outlet": "The Standard",
+            "url": "https://example.org/standard/jobs-august",
+            "lean": "right",
+            "covers": [
+              "what_happened",
+              "disputed.0"
+            ]
+          }
+        ],
+        "updated_at": "2026-09-03T11:00:00Z",
+        "topic": "finance"
+      }
+    ],
+    "environment": [
+      {
+        "id": "2026-09-03-offshore-wind",
+        "headline": "Court blocks offshore wind permit",
+        "what_happened": "A federal judge paused the permit for the 80-turbine Cape Bell wind farm Tuesday. The ruling says the agency skipped a required whale survey. Construction was due to start in October.",
+        "not_in_dispute": [
+          "Judge Ellen Park issued the stay on Tuesday.",
+          "The project is 80 turbines about 15 miles offshore.",
+          "The agency must complete a marine mammal survey before the permit returns.",
+          "Construction had been set to begin in October."
+        ],
+        "disputed": [
+          {
+            "claim": "how long the delay will last",
+            "side_a_position": "Northwind Energy said the survey is already half done and the project slips by months, not years",
+            "side_a_who": "Northwind Energy",
+            "side_b_position": "Fishermen's Alliance lawyer Sam Trask said a proper survey takes two seasons and the project is dead for 2027",
+            "side_b_who": "Fishermen's Alliance lawyer Sam Trask"
+          }
+        ],
+        "framing": [
+          {
+            "outlet": "Capital Ledger",
+            "lean": "left",
+            "how_they_put_it": "Wind farm stalled by fishing lobby lawsuit"
+          },
+          {
+            "outlet": "Sample Wire",
+            "lean": "center",
+            "how_they_put_it": "Judge pauses offshore wind permit over whale survey"
+          },
+          {
+            "outlet": "The Standard",
+            "lean": "right",
+            "how_they_put_it": "Court reins in rushed wind approval"
+          }
+        ],
+        "why_it_matters": "The state's 2030 clean power target depends on this project coming online.",
+        "sources": [
+          {
+            "outlet": "Sample Wire",
+            "url": "https://example.org/wire/offshore-wind",
+            "lean": "center",
+            "covers": [
+              "what_happened",
+              "why_it_matters",
+              "disputed.0",
+              "not_in_dispute.0",
+              "not_in_dispute.1",
+              "not_in_dispute.2",
+              "not_in_dispute.3"
+            ]
+          },
+          {
+            "outlet": "Capital Ledger",
+            "url": "https://example.org/ledger/offshore-wind",
+            "lean": "left",
+            "covers": [
+              "what_happened",
+              "disputed.0"
+            ]
+          },
+          {
+            "outlet": "The Standard",
+            "url": "https://example.org/standard/offshore-wind",
+            "lean": "right",
+            "covers": [
+              "what_happened",
+              "disputed.0"
+            ]
+          }
+        ],
+        "updated_at": "2026-09-03T11:00:00Z",
+        "topic": "environment"
+      }
+    ],
+    "sports": [
+      {
+        "id": "2026-09-03-league-expansion",
+        "headline": "League adds two teams for 2028",
+        "what_happened": "The league voted Wednesday to add franchises in Austin and Portland. Both start play in 2028. Each ownership group paid $1.2 billion.",
+        "not_in_dispute": [
+          "Owners voted 28 to 2 to expand.",
+          "Austin and Portland begin play in the 2028 season.",
+          "Expansion fee was $1.2 billion per team.",
+          "Rosters will be filled by an expansion draft in 2027."
+        ],
+        "disputed": [
+          {
+            "claim": "whether the fee is fair to existing owners",
+            "side_a_position": "Commissioner Lou Barrett said the fee is split evenly and every owner gets about $85 million",
+            "side_a_who": "Commissioner Lou Barrett",
+            "side_b_position": "Owner Rita Alvarez, one of the two no votes, said the fee undervalues teams by a third",
+            "side_b_who": "Owner Rita Alvarez"
+          }
+        ],
+        "framing": [
+          {
+            "outlet": "Capital Ledger",
+            "lean": "left",
+            "how_they_put_it": "Public asked to fund stadiums for billion-dollar teams"
+          },
+          {
+            "outlet": "Sample Wire",
+            "lean": "center",
+            "how_they_put_it": "League expands to Austin and Portland"
+          },
+          {
+            "outlet": "The Standard",
+            "lean": "right",
+            "how_they_put_it": "Two new markets, $2.4 billion in private money"
+          }
+        ],
+        "why_it_matters": "The expansion draft in 2027 means every current roster loses a player.",
+        "sources": [
+          {
+            "outlet": "Sample Wire",
+            "url": "https://example.org/wire/league-expansion",
+            "lean": "center",
+            "covers": [
+              "what_happened",
+              "why_it_matters",
+              "disputed.0",
+              "not_in_dispute.0",
+              "not_in_dispute.1",
+              "not_in_dispute.2",
+              "not_in_dispute.3"
+            ]
+          },
+          {
+            "outlet": "Capital Ledger",
+            "url": "https://example.org/ledger/league-expansion",
+            "lean": "left",
+            "covers": [
+              "what_happened",
+              "disputed.0"
+            ]
+          },
+          {
+            "outlet": "The Standard",
+            "url": "https://example.org/standard/league-expansion",
+            "lean": "right",
+            "covers": [
+              "what_happened",
+              "disputed.0"
+            ]
+          }
+        ],
+        "updated_at": "2026-09-03T11:00:00Z",
+        "topic": "sports"
+      }
+    ],
+    "health": [
+      {
+        "id": "2026-09-03-otc-pill",
+        "headline": "Blood pressure pill goes over the counter",
+        "what_happened": "Regulators approved a 10 milligram version of amlodine for sale without a prescription. Buyers answer a short screening quiz at the register. It reaches shelves early next year.",
+        "not_in_dispute": [
+          "Approval covers a 10 milligram daily dose for adults.",
+          "A screening questionnaire is required at purchase.",
+          "The drug has been prescription-only for over twenty years.",
+          "Higher doses stay prescription-only."
+        ],
+        "disputed": [
+          {
+            "claim": "whether insurers will stop covering it",
+            "side_a_position": "Patient group Heart Forward said insurers dropped coverage the last two times a drug went over the counter",
+            "side_a_who": "Heart Forward",
+            "side_b_position": "Insurer trade group head Neil Sato said members have no plans to change coverage",
+            "side_b_who": "Insurer trade group head Neil Sato"
+          }
+        ],
+        "framing": [
+          {
+            "outlet": "Capital Ledger",
+            "lean": "left",
+            "how_they_put_it": "Easier access, but the bill may shift to patients"
+          },
+          {
+            "outlet": "Sample Wire",
+            "lean": "center",
+            "how_they_put_it": "Blood pressure drug approved for over-the-counter sale"
+          },
+          {
+            "outlet": "The Standard",
+            "lean": "right",
+            "how_they_put_it": "Regulator cuts red tape on 20-year-old drug"
+          }
+        ],
+        "why_it_matters": "From next year you can buy a low-dose blood pressure pill without seeing a doctor.",
+        "sources": [
+          {
+            "outlet": "Sample Wire",
+            "url": "https://example.org/wire/otc-pill",
+            "lean": "center",
+            "covers": [
+              "what_happened",
+              "why_it_matters",
+              "disputed.0",
+              "not_in_dispute.0",
+              "not_in_dispute.1",
+              "not_in_dispute.2",
+              "not_in_dispute.3"
+            ]
+          },
+          {
+            "outlet": "Capital Ledger",
+            "url": "https://example.org/ledger/otc-pill",
+            "lean": "left",
+            "covers": [
+              "what_happened",
+              "disputed.0"
+            ]
+          },
+          {
+            "outlet": "The Standard",
+            "url": "https://example.org/standard/otc-pill",
+            "lean": "right",
+            "covers": [
+              "what_happened",
+              "disputed.0"
+            ]
+          }
+        ],
+        "updated_at": "2026-09-03T11:00:00Z",
+        "topic": "health"
+      }
+    ],
+    "science": [
+      {
+        "id": "2026-09-03-asteroid-sample",
+        "headline": "Asteroid sample capsule lands on target",
+        "what_happened": "The Iris capsule landed in the Utah desert Sunday with about 250 grams of asteroid rock. It launched seven years ago. Labs in ten countries get pieces this month.",
+        "not_in_dispute": [
+          "Capsule landed inside the recovery zone Sunday morning.",
+          "Sample mass is estimated at 250 grams.",
+          "The mission launched seven years ago.",
+          "Samples will be shared with labs in more than ten countries."
+        ],
+        "disputed": [
+          {
+            "claim": "whether the mission proves mining is viable",
+            "side_a_position": "Mission lead Priya Nair said this is science, and the economics of mining are decades off",
+            "side_a_who": "Mission lead Priya Nair",
+            "side_b_position": "Astra Metals founder Cal Reyes said the same guidance system gets a mining probe to a target for under $200 million",
+            "side_b_who": "Astra Metals founder Cal Reyes"
+          }
+        ],
+        "framing": [
+          {
+            "outlet": "Capital Ledger",
+            "lean": "left",
+            "how_they_put_it": "Public science mission returns first metal-asteroid sample"
+          },
+          {
+            "outlet": "Sample Wire",
+            "lean": "center",
+            "how_they_put_it": "Asteroid sample capsule lands in Utah"
+          },
+          {
+            "outlet": "The Standard",
+            "lean": "right",
+            "how_they_put_it": "Asteroid return opens door to space mining"
+          }
+        ],
+        "why_it_matters": "First results on what a metal asteroid is made of are due by December.",
+        "sources": [
+          {
+            "outlet": "Sample Wire",
+            "url": "https://example.org/wire/asteroid-sample",
+            "lean": "center",
+            "covers": [
+              "what_happened",
+              "why_it_matters",
+              "disputed.0",
+              "not_in_dispute.0",
+              "not_in_dispute.1",
+              "not_in_dispute.2",
+              "not_in_dispute.3"
+            ]
+          },
+          {
+            "outlet": "Capital Ledger",
+            "url": "https://example.org/ledger/asteroid-sample",
+            "lean": "left",
+            "covers": [
+              "what_happened",
+              "disputed.0"
+            ]
+          },
+          {
+            "outlet": "The Standard",
+            "url": "https://example.org/standard/asteroid-sample",
+            "lean": "right",
+            "covers": [
+              "what_happened",
+              "disputed.0"
+            ]
+          }
+        ],
+        "updated_at": "2026-09-03T11:00:00Z",
+        "topic": "science"
+      }
+    ],
+    "local": [
+      {
+        "id": "2026-09-03-bus-lane",
+        "headline": "City council approves bus lane on Main",
+        "what_happened": "The council voted 6 to 3 Tuesday for a bus-only lane on Main Street between 5th and 20th. Work starts in spring. About 40 parking spaces go.",
+        "not_in_dispute": [
+          "Vote was 6 to 3.",
+          "The lane runs on Main between 5th and 20th.",
+          "Construction starts in spring.",
+          "Roughly 40 street parking spaces will be removed."
+        ],
+        "disputed": [
+          {
+            "claim": "whether the lane slows car traffic",
+            "side_a_position": "Transit director Owen Hale said the city's model shows car trips on Main get two minutes slower",
+            "side_a_who": "Transit director Owen Hale",
+            "side_b_position": "Main Street Merchants president Dee Larkin said the model ignores delivery trucks and it will be closer to ten",
+            "side_b_who": "Main Street Merchants president Dee Larkin"
+          }
+        ],
+        "framing": [
+          {
+            "outlet": "Capital Ledger",
+            "lean": "left",
+            "how_they_put_it": "Council picks buses over parking"
+          },
+          {
+            "outlet": "Sample Wire",
+            "lean": "center",
+            "how_they_put_it": "Main Street bus lane approved 6 to 3"
+          },
+          {
+            "outlet": "The Standard",
+            "lean": "right",
+            "how_they_put_it": "Council cuts 40 parking spots for a bus lane"
+          }
+        ],
+        "why_it_matters": "Parking on Main between 5th and 20th disappears in spring.",
+        "sources": [
+          {
+            "outlet": "Sample Wire",
+            "url": "https://example.org/wire/bus-lane",
+            "lean": "center",
+            "covers": [
+              "what_happened",
+              "why_it_matters",
+              "disputed.0",
+              "not_in_dispute.0",
+              "not_in_dispute.1",
+              "not_in_dispute.2",
+              "not_in_dispute.3"
+            ]
+          },
+          {
+            "outlet": "Capital Ledger",
+            "url": "https://example.org/ledger/bus-lane",
+            "lean": "left",
+            "covers": [
+              "what_happened",
+              "disputed.0"
+            ]
+          },
+          {
+            "outlet": "The Standard",
+            "url": "https://example.org/standard/bus-lane",
+            "lean": "right",
+            "covers": [
+              "what_happened",
+              "disputed.0"
+            ]
+          }
+        ],
+        "updated_at": "2026-09-03T11:00:00Z",
+        "topic": "local"
+      }
+    ]
+  }
+}

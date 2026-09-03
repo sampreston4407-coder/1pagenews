@@ -1,0 +1,50 @@
+[
+  {
+    "outlet": "BBC News",
+    "lean": "center",
+    "homepage": "https://www.bbc.com/news",
+    "why": "Wire-style world coverage with a public editorial code."
+  },
+  {
+    "outlet": "The Hill",
+    "lean": "center",
+    "homepage": "https://thehill.com/",
+    "why": "Straight coverage of Congress and the White House."
+  },
+  {
+    "outlet": "CBS News",
+    "lean": "center",
+    "homepage": "https://www.cbsnews.com/",
+    "why": "Broadcast network newsroom, national desk."
+  },
+  {
+    "outlet": "NPR",
+    "lean": "left",
+    "homepage": "https://www.npr.org/",
+    "why": "Public radio news desk. Rated lean left by AllSides."
+  },
+  {
+    "outlet": "The Guardian",
+    "lean": "left",
+    "homepage": "https://www.theguardian.com/",
+    "why": "UK daily with a large US desk. Rated left by AllSides."
+  },
+  {
+    "outlet": "Fox News",
+    "lean": "right",
+    "homepage": "https://www.foxnews.com/",
+    "why": "Largest right-leaning US newsroom. Rated right by AllSides."
+  },
+  {
+    "outlet": "Washington Examiner",
+    "lean": "right",
+    "homepage": "https://www.washingtonexaminer.com/",
+    "why": "Right-leaning political daily. Rated lean right by AllSides."
+  },
+  {
+    "outlet": "New York Post",
+    "lean": "right",
+    "homepage": "https://nypost.com/",
+    "why": "Right-leaning tabloid with a large national desk."
+  }
+]
