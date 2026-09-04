@@ -23,7 +23,7 @@ class Feed:
 FEEDS: list[Feed] = [
     # General news, across the spectrum
     Feed("BBC News", Lean.center, "https://feeds.bbci.co.uk/news/world/rss.xml"),
-    Feed("BBC News", Lean.center, "https://feeds.bbci.co.uk/news/us_and_canada/rss.xml"),
+    Feed("BBC News", Lean.center, "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"),
     Feed("The Hill", Lean.center, "https://thehill.com/feed/"),
     Feed("CBS News", Lean.center, "https://www.cbsnews.com/latest/rss/main"),
     Feed("NPR", Lean.left, "https://feeds.npr.org/1001/rss.xml"),

@@ -43,8 +43,8 @@ Xcode will ask you to register it against your team the first time.
 Story detail, top to bottom:
 
 1. What happened. Two or three sentences.
-2. Not in dispute. Only what every outlet reports the same way. A solid line runs beside it.
-3. Disputed. The line forks into two dashed strands, one per named side, then joins again.
+2. Not in dispute. Only what every outlet reports the same way.
+3. Disputed. The claim, then a stem that forks to the far left and far right. A dashed strand runs down each edge beside that side's position, and ends there.
 4. How each outlet put it. Collapsed.
 5. Why it matters. One sentence.
 6. Sources. Always visible, every one a link to the original.
